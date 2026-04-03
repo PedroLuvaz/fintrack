@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, Float, String, DateTime, Enum, ForeignKey, func
 
 from app.core.database import Base
-from app.models.transactiontype import TransactionType
+from app.core.transactiontype import TransactionType
 
 
 class Transaction(Base):

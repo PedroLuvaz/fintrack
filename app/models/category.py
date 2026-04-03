@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Enum, ForeignKey
 
 from app.core.database import Base
-from app.models.transactiontype import TransactionType
+from app.core.transactiontype import TransactionType
 
 
 class Category(Base):
